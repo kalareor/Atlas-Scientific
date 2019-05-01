@@ -3,12 +3,16 @@
 
 # Ver 1.0 - 2019.05.01
 # Coded by NRu (contact through git hub comments please)
-# Code meant for water control unit controlled by an RPi 3 B+ and using following Atlas Scientific components : Tentacle T3 for Raspberry Pi, EZO RTD, pH and EC modules, PT-1000 Temperature Probe, pH Probe and Conductivity Probe K 0.1
-# The idea of the code is to be able to read sensors separately or simultaneously as floats to be used in other codes for controling other components of the system.
+#
+# This code is meant for water control unit controlled by an RPi 3 B+ and using following Atlas Scientific components : Tentacle T3 for Raspberry Pi, EZO RTD, pH and EC modules, PT-1000 Temperature Probe, pH Probe and Conductivity Probe K 0.1
+# The idea of the code is to be able to read sensors separately or simultaneously as floats to be then used in other codes for controling other components of the system.
 # No DO EZO module or sensor was attached to the Tentacle T3 while developing this code. The presence of DO sensor in this code is purely for debugging purposes.
-# Code inspired from following codes. Special thanks to their developers for their help:
+#
+# Code inspired from following repositories. Special thanks to their developers for their help:
 #       https://gist.github.com/noxqs/1cbcc97ac8ba01428ff91c7ace942d43
 #       https://github.com/AtlasScientific/Raspberry-Pi-sample-code/blob/master/i2c.py
+#
+# NB: I am far from being a developer or even a programmer and basically just begun with Python after only knowing/using C/C++, so this code is far from perfect.
 
 import io  # used to create file streams
 import fcntl  # used to access I2C parameters like addresses
