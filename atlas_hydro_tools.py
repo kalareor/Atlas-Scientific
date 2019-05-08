@@ -4,7 +4,7 @@
 '''
 Ver 2.0 - 2019.05.08
 Compatibility: python2 and python3. Nevertheless, python3 is  strongly recommended for better print-out readability characters handling (like °C for example)
-Coded by NRu. Please contact through GitHub comments (TBC), GitHub (https://github.com/kalareor) or directly at nicolas.ruffray@gmail.com. Any questions, suggestions or constructive comments are very welcomed
+Coded by NRu. Please contact through GitHub comments (https://github.com/kalareor/Atlas-Scientific/commit/d98634fbb9e9103ca25f405ddb7e62b3208e853c), GitHub (https://github.com/kalareor) or directly at nicolas.ruffray@gmail.com. Any questions, suggestions or constructive comments are very welcomed
 
 This Python library is meant for using water quality related Atlas Scientific sensors (RTD, pH, EC, DO and ORP). The code is designed for I2C communication only and was developed on a Raspberry Pi 3 B+ using an Atlas Scientific Tentacle T3 hat for RPi hat. This library was not tested without the Tentacle 3 (with EZO modules connected to the RPi through a development board even if it "should" work. Any returns on this topic are very welcomed in the git hub comments or directly by e-mail.
 
